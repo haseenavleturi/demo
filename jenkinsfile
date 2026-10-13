@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        image_name = "devoopsguru/hello"
+        image_name = "hello"
     }
     stages {
         stage("git-checkout") {
