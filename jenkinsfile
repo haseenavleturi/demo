@@ -31,7 +31,7 @@ pipeline {
         }
     }
 }
-       stage("docker push") {
+stage("docker push") {
             steps {
                 script {
                     bat "docker build -t ${env.full_image} ."
